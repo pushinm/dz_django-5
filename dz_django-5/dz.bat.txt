@@ -1,0 +1,7 @@
+md new_project
+cd new_project
+python -m venv venv
+.\venv\Scripts\activate
+pip install django
+django-admin startproject name .
+pip freeze > requirements.txt
